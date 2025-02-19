@@ -48,3 +48,30 @@ console.log(x) // 5
 console.log(++x) 
 console.log(--x)
 
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                            ASSIGNMENT OPERATORS                            */
+/* -------------------------------------------------------------------------- */
+
+let t=10
+let y=5
+
+console.log(t)
+console.log(y)
+
+console.log(t=t+y)
+console.log(t+=y)
+console.log(t-=y)
+console.log(t*=y)
+console.log(t/=y)
+console.log(t**=y)
+console.log(t%=y)
+
+let k=18
+let h=3
+console.log(h +=k)
+
+let sayi=45.986
+console.log(Math.trunc(sayi))
+console.log(sayi)
+
