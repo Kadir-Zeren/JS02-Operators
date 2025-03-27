@@ -48,3 +48,50 @@ console.log(x) // 5
 console.log(++x) 
 console.log(--x)
 
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                            ASSIGNMENT OPERATORS                            */
+/* -------------------------------------------------------------------------- */
+
+let t=10
+let y=5
+
+console.log(t)
+console.log(y)
+
+console.log(t=t+y)
+console.log(t+=y)
+console.log(t-=y)
+console.log(t*=y)
+console.log(t/=y)
+console.log(t**=y)
+console.log(t%=y)
+
+let k=18
+let h=3
+console.log(h +=k)
+
+let sayi=45.986
+console.log(Math.trunc(sayi))
+console.log(sayi)
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                            COMPARISON OPERATORS                            */
+/* -------------------------------------------------------------------------- */
+
+// Karşılaştırma operatörleri bize Boolean sonuç döndürür.
+
+let c=2
+let d="2"
+
+console.log(typeof c)
+console.log(typeof d)
+console.log(c==d)
+console.log(c===d)
+
+console.log(c!=d) // eşit değil mi - false 2  2 ye eşit
+console.log(c!==d) // eşit değil mi - true biri string biri number olduğu için eşit değil
+console.log(3>=2)
+
+
